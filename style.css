@@ -1,0 +1,722 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.header-info {
+    display: flex;
+    gap: 130px;
+    align-items: center;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+    color: #333;
+}
+
+.info-item i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.info-item img {
+    max-height: 30px;
+}
+
+.info-item div {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-item span {
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+}
+
+.info-item a {
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: #007bff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-right: 90px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+
+.navbar .search {
+    background-color: #0000ff;
+    padding: 10px 25px;
+}
+
+main {
+    padding: 20px;
+    background-image: url('img/knees.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover;  */
+    background-size: 100%;
+}
+
+.treatment-info {
+    margin-left: 20px;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.breadcrumb span {
+    color: #fff;
+    font-weight: bold;
+}
+
+.treatment-info small {
+    color: red;
+}
+
+.treatment-info h1 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.treatment-info p {
+    margin: 20px 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.enquire-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.content {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabs ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+}
+
+.tabs ul li {
+    padding: 10px 20px;
+}
+
+.tabs ul li.active {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+    border: 5px solid transparent; /* Transparent border */
+    border-bottom-color: #007bff; /* Blue color for the bottom border */
+}
+
+.tabs ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+.content
+.content-overview {
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    max-width: 570px;
+}
+/* hr{
+    text-decoration: dotted;
+    margin-left: 20px;
+    margin-right: 60px;
+} */
+
+/* Eligiable Content */
+.Eli-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-column {
+    width: 60%;
+  }
+  
+  .right-column {
+    width: 30%;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .Eli-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+ .Eli-container p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .Eli-container ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+ .Eli-container li {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+.border-1{
+    border: 1px dashed #1e90ff;
+    margin-right: 100px;
+}
+.border-2{
+    border: 1px dashed #1e90ff;
+}
+.border-3{
+    border: 1px dashed #1e90ff;
+    margin-right: 600px;
+}
+.border-4 {
+    border: 1px dashed #1e90ff;
+    /* margin-right: 110px; */
+}
+.border-5{
+    border: 1px dashed #1e90ff;
+    margin-right: -2px;
+}
+/* About  */
+.About-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-content {
+    width: 60%;
+}
+
+.right-content {
+    width: 30%;
+    background-color: transparent; /* Keeps the background transparent */
+    padding: 20px;
+    border-radius: 5px;
+}
+.FAQ_point{
+    color: #0000ff;
+    font-size: 20px;
+}
+.question{
+    font-size: 16px;
+    width: 900px;
+}
+.vline{
+    display: inline-block;
+    border-left: 3px solid green;
+    height: 70px;
+}
+/* OWL SLider */
+.owl-container {
+    width: 50%;
+    margin: 50px 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.post{
+    height: 165px;
+}
+
+.owl-carousel .item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.item .story-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.item .story-content {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.item .patient-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* .item img.patient-img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+} */
+.item img.patient-img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 40px !important; /* Reduced from 50px to 40px */
+    height: 40px !important; /* Reduced from 50px to 40px */
+}
+
+
+.item .name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.item .location {
+    color: #777;
+    font-size: 12px;
+}
+
+.item .video-container {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.item .video-container img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.item .video-container .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.item .quote-icon {
+    font-size: 30px;
+    color: #ff66b2;
+    text-align: right;
+}
+
+/* .owl-dots {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.owl-dot {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.owl-dot.active {
+    background-color: #333;
+}
+.owl-nav button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+}
+.owl-nav .owl-prev {
+    left: 10px;
+}
+.owl-nav .owl-next {
+    right: 10px;
+} */
+/* .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 10;
+} */
+.header{
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 700;
+}
+.para{
+    text-align: justify;
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 700;
+}
+.para span{
+    color: #007bff;
+}
+
+/* Carosusel 1 */
+.owl-carousel-1 {
+    width: 100vw; /* Full width of the container */
+    margin: 50px auto; /* Center the carousel and set top/bottom margins */
+}
+
+.owl-carousel-1 .item {
+    background: #fff; /* Background color */
+    padding: 20px; /* Padding inside items */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto; /* Width of each item */
+    height: auto;
+    margin: 0 10px; /* Space between items */
+    flex: 0 0 auto; /* Prevent items from shrinking */
+}
+
+/* Adjust image size */
+.owl-carousel-1 .video-container img.patient-img {
+    width: 300px !important; /* Full width of item */
+    height: 200px !important; /* Auto height to maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    margin-left: 15px !important;
+}
+
+/* Text styles */
+.owl-carousel-1 .item .name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.owl-carousel-1 .item .location {
+    color: #777;
+    font-size: 12px;
+}
+
+/* Video container */
+.owl-carousel-1 .item .video-container {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.owl-carousel-1 .item .video-container .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Quote icon */
+.owl-carousel-1 .item .quote-icon {
+    font-size: 30px;
+    color: #ff66b2;
+    text-align: right;
+}
+
+/* Carousel dots */
+.owl-carousel-1 .owl-dots {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.owl-carousel-1 .owl-dot {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+.owl-carousel-1 .owl-dot.active {
+    background-color: #333;
+}
+
+/* Navigation buttons */
+.owl-carousel-1 .owl-nav button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.owl-carousel-1 .owl-nav .owl-prev {
+    left: 10px;
+}
+
+.owl-carousel-1 .owl-nav .owl-next {
+    right: 10px;
+}
+
+.owl-carousel-1 .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+/* Header and paragraphs */
+.owl-carousel-1 .header {
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.owl-carousel-1 .para {
+    text-align: justify;
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.owl-carousel-1 .para span {
+    color: #007bff;
+}
+/* Footer */
+.top-banner {
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.top-banner h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.top-banner p {
+    font-size: 36px;
+    margin: 10px 0;
+}
+.contact-buttons {
+    margin-top: 20px;
+}
+.contact-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.contact-buttons .get-in-touch {
+    background-color: #4169E1;
+}
+.contact-buttons .phone {
+    background-color: transparent;
+    border: 1px solid white;
+}
+.footer {
+    background-color: #1C2833;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+.footer-column ul li a {
+    color: #A9A9A9;
+    text-decoration: none;
+}
+.join-mediretreat {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+.join-mediretreat h3 {
+    color: #1E90FF;
+    margin-top: 0;
+}
+.medical-tourism {
+    margin-top: 20px;
+}
+.medical-tourism h3 {
+    color: white;
+}
+.medical-tourism ul {
+    padding-left: 20px;
+}
+.about-section {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.about-section img {
+    width: 500px;
+    height: 200px;
+    margin-right: 20px;
+}
+.about-text {
+    /* flex: 1; */
+    width: 600px;
+}
+.social-media {
+    margin-top: 20px;
+    width: 200px;
+}
+.social-media a {
+    margin-right: 10px;
+}
+.bottom-bar {
+    background-color: #1E90FF;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+.border{
+    background-color: transparent;
+    border: 1px solid #007bff;
+}
